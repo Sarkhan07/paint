@@ -1,0 +1,76 @@
+body {
+    margin: 0
+}
+
+#canvas {
+    display: block;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.tool {
+    background-color: rgb(219, 218, 218);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.thick {
+    margin-top: 75px;
+}
+
+.buttons {
+    margin-top: 75px;
+}
+
+.palette {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 200px;
+    height: 100px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.px1 {
+    background-color: brown;
+    height: 1px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.px2 {
+    background-color: brown;
+    height: 2px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+
+.px3 {
+    background-color: brown;
+    height: 3px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+
+.px4 {
+    background-color: brown;
+    height: 4px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+
+.px5 {
+    background-color: brown;
+    height: 5px;
+    width: 200px;
+    margin-bottom: 20px;
+}
