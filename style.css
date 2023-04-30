@@ -39,38 +39,38 @@ body {
 
 .px1 {
     background-color: brown;
-    height: 1px;
     width: 200px;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .px2 {
     background-color: brown;
-    height: 2px;
     width: 200px;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 
 .px3 {
     background-color: brown;
-    height: 3px;
     width: 200px;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 
 .px4 {
     background-color: brown;
-    height: 4px;
     width: 200px;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 
 .px5 {
     background-color: brown;
-    height: 5px;
     width: 200px;
     margin-bottom: 20px;
+    cursor: pointer;
 }
