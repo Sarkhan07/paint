@@ -121,6 +121,8 @@ document.addEventListener('DOMContentLoaded', () => {
             document.body.appendChild(link);
             link.click();
 
+            URL.revokeObjectURL(link.href);
+
             document.body.removeChild(link);
         });
     }
