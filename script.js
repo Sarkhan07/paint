@@ -111,19 +111,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let saveBtn = document.querySelector('.save');
 
-    function saveImage() {
-        const image = canvas.toDataURL('image/png');
+    function saveImg() {
+        canvas.toBlob((blob) => {
+            let link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
 
-        const link = document.createElement('a');
-        link.href = URL.createObjectURL(image);
+            link.download = 'my_drawing.png';
 
-        link.download = 'my_drawing.png';
+            document.body.appendChild(link);
+            link.click();
 
-        document.body.appendChild(link);
-        link.click();
-
-        document.body.removeChild(link);
+            document.body.removeChild(link);
+        });
     }
 
-    saveBtn.addEventListener('click', saveImage);
+    saveBtn.addEventListener('click', saveImg);
 });
